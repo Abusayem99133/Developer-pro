@@ -10,6 +10,12 @@ body {
     color: orange;
 }
 
-.time-line {
-    background-color: orange;
+.link-button {
+    text-decoration: none;
+    background: linear-gradient(tomato orange);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+
 }
