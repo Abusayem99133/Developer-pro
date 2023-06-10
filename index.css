@@ -1,9 +1,37 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
-.flexible-aria {
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+section {
     display: flex;
+    margin-top: 100px;
+}
+
+
+
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+
+
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.half-width img {
+    width: 100%;
 }
 
 .type-here {
@@ -12,10 +40,9 @@ body {
 
 .link-button {
     text-decoration: none;
-    background: linear-gradient(tomato orange);
+    background-image: linear-gradient(orange, tomato);
     padding: 10px 40px;
     color: white;
     font-weight: 700;
     border-radius: 5px;
-
 }
