@@ -1,3 +1,15 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+
+.flexible-aria {
+    display: flex;
+}
+
+.type-here {
+    color: orange;
+}
+
+.time-line {
+    background-color: orange;
+}
